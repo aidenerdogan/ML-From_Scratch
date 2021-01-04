@@ -4,6 +4,10 @@ import numpy as np
 import math
 import sys
 
+"""This python file contains sample data manipilations such
+shuuffle data, geting subsets of data etc.
+"""
+
 # Randomly shuffle the data such the samples in X and y
 def shuffle_data(X, y, seed=None):
     if seed:
