@@ -8,6 +8,9 @@ import pandas as pd
 # Import helper functions
 from mlfromscratch.utils import train_test_split, accuracy_score, Plot
 
+"""This Pyhton file contains explanation Adaboosting
+ML model by excersise"""
+
 # Decision stump used as weak classifier in this impl. of Adaboost
 class DecisionStump():
     def __init__(self):
@@ -21,14 +24,14 @@ class DecisionStump():
         self.alpha = None
 
 class Adaboost():
-    """Boosting method that uses a number of weak classifiers in 
+    """Boosting method that uses a number of weak classifiers in
     ensemble to make a strong classifier. This implementation uses decision
-    stumps, which is a one level Decision Tree. 
+    stumps, which is a one level Decision Tree.
 
     Parameters:
     -----------
     n_clf: int
-        The number of weak classifiers that will be used. 
+        The number of weak classifiers that will be used.
     """
     def __init__(self, n_clf=5):
         self.n_clf = n_clf
@@ -38,7 +41,7 @@ class Adaboost():
 
         # Initialize weights to 1/N
         w = np.full(n_samples, (1 / n_samples))
-        
+
         self.clfs = []
         # Iterate through classifiers
         for _ in range(self.n_clf):
@@ -60,7 +63,7 @@ class Adaboost():
                     prediction[X[:, feature_i] < threshold] = -1
                     # Error = sum of weights of misclassified samples
                     error = sum(w[y != prediction])
-                    
+
                     # If the error is over 50% we flip the polarity so that samples that
                     # were classified as 0 are classified as 1, and vice versa
                     # E.g error = 0.8 => (1 - error) = 0.2
@@ -84,7 +87,7 @@ class Adaboost():
             negative_idx = (clf.polarity * X[:, clf.feature_index] < clf.polarity * clf.threshold)
             # Label those as '-1'
             predictions[negative_idx] = -1
-            # Calculate new weights 
+            # Calculate new weights
             # Missclassified samples gets larger weights and correctly classified samples smaller
             w *= np.exp(-clf.alpha * y * predictions)
             # Normalize to one

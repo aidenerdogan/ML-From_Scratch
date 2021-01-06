@@ -12,6 +12,10 @@ from mlfromscratch.utils.misc import bar_widgets
 from mlfromscratch.utils import Plot
 
 
+
+"""This Pyhton file contains explanation Random Forest
+ML model by excersise"""
+
 class RandomForest():
     """Random Forest classifier. Uses a collection of classification trees that
     trains on random subsets of the data using a random subsets of the features.
@@ -26,7 +30,7 @@ class RandomForest():
     min_samples_split: int
         The minimum number of samples needed to make a split when building a tree.
     min_gain: float
-        The minimum impurity required to split the tree further. 
+        The minimum impurity required to split the tree further.
     max_depth: int
         The maximum depth of a tree.
     """
@@ -78,7 +82,7 @@ class RandomForest():
             # Make a prediction based on those features
             prediction = tree.predict(X[:, idx])
             y_preds[:, i] = prediction
-            
+
         y_pred = []
         # For each sample
         for sample_predictions in y_preds:
