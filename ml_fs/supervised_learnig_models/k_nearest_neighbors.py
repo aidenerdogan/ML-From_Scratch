@@ -1,6 +1,6 @@
 from __future__ import print_function, division
 import numpy as np
-from mlfromscratch.utils import euclidean_distance
+from mml_fs.common_utils import euclidean_distance
 
 
 """This Pyhton file contains explanation K-Nearest Neighbors (KNN)

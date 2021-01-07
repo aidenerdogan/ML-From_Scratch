@@ -4,12 +4,12 @@ import math
 import progressbar
 
 # Import helper functions
-from mlfromscratch.utils import divide_on_feature, train_test_split, get_random_subsets, normalize
-from mlfromscratch.utils import accuracy_score, calculate_entropy
-from mlfromscratch.unsupervised_learning import PCA
-from mlfromscratch.supervised_learning import ClassificationTree
-from mlfromscratch.utils.misc import bar_widgets
-from mlfromscratch.utils import Plot
+from ml_fs.common_utils import divide_on_feature, train_test_split, get_random_subsets, normalize
+from ml_fs.common_utils import accuracy_score, calculate_entropy
+from ml_fs.unsupervised_learning import PCA
+from ml_fs.supervised_learning import ClassificationTree
+from ml_fs.common_utils.misc import bar_widgets
+from ml_fs.common_utils import Plot
 
 
 

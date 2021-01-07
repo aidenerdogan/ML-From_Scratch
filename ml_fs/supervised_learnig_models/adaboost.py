@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Import helper functions
-from mlfromscratch.utils import train_test_split, accuracy_score, Plot
+from ml_fs.common_utils import train_test_split, accuracy_score, Plot
 
 """This Pyhton file contains explanation Adaboosting
 ML model by excersise"""

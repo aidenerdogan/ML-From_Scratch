@@ -2,9 +2,9 @@
 from __future__ import division, print_function
 import numpy as np
 import cvxopt
-from mlfromscratch.utils import train_test_split, normalize, accuracy_score
-from mlfromscratch.utils.kernels import *
-from mlfromscratch.utils import Plot
+from ml_fs.common_utils import train_test_split, normalize, accuracy_score
+from ml_fs.common_utils.kernels import *
+from ml_fs.common_utils import Plot
 
 
 

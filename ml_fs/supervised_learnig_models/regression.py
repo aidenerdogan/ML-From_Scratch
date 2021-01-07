@@ -1,7 +1,7 @@
 from __future__ import print_function, division
 import numpy as np
 import math
-from mlfromscratch.utils import normalize, polynomial_features
+from ml_fs.common_utils import normalize, polynomial_features
 
 
 

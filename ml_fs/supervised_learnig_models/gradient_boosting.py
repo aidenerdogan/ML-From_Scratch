@@ -3,11 +3,11 @@ import numpy as np
 import progressbar
 
 # Import helper functions
-from mlfromscratch.utils import train_test_split, standardize, to_categorical
-from mlfromscratch.utils import mean_squared_error, accuracy_score
-from mlfromscratch.deep_learning.loss_functions import SquareLoss, CrossEntropy
-from mlfromscratch.supervised_learning.decision_tree import RegressionTree
-from mlfromscratch.utils.misc import bar_widgets
+from ml_fs.common_utils import train_test_split, standardize, to_categorical
+from ml_fs.common_utils import mean_squared_error, accuracy_score
+from ml_fs.deep_learning.loss_functions import SquareLoss, CrossEntropy
+from ml_fs.supervised_learning.decision_tree import RegressionTree
+from ml_fs.utils.misc import bar_widgets
 
 
 

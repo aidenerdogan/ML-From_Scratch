@@ -2,12 +2,12 @@ from __future__ import division, print_function
 import numpy as np
 import progressbar
 
-from mlfromscratch.utils import train_test_split, standardize, to_categorical, normalize
-from mlfromscratch.utils import mean_squared_error, accuracy_score
-from mlfromscratch.supervised_learning import XGBoostRegressionTree
-from mlfromscratch.deep_learning.activation_functions import Sigmoid
-from mlfromscratch.utils.misc import bar_widgets
-from mlfromscratch.utils import Plot
+from ml_fs.common_utils import train_test_split, standardize, to_categorical, normalize
+from ml_fs.common_utils import mean_squared_error, accuracy_score
+from ml_fs.supervised_learning import XGBoostRegressionTree
+from ml_fs.deep_learning.activation_functions import Sigmoid
+from ml_fs.common_utils.misc import bar_widgets
+from ml_fs.common_utils import Plot
 
 
 """This Pyhton file contains explanation XGBoost

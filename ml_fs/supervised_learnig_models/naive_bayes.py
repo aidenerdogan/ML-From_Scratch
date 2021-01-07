@@ -1,8 +1,8 @@
 from __future__ import division, print_function
 import numpy as np
 import math
-from mlfromscratch.utils import train_test_split, normalize
-from mlfromscratch.utils import Plot, accuracy_score
+from ml_fs.common_utils import train_test_split, normalize
+from ml_fs.common_utils import Plot, accuracy_score
 
 
 """This Pyhton file contains explanation Naive Bayes

@@ -1,8 +1,8 @@
 from __future__ import print_function, division
 import numpy as np
 import math
-from mlfromscratch.utils import make_diagonal, Plot
-from mlfromscratch.deep_learning.activation_functions import Sigmoid
+from ml_fs.common_utils import make_diagonal, Plot
+from ml_fs.deep_learning.activation_functions import Sigmoid
 
 
 

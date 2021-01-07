@@ -3,11 +3,11 @@ import math
 import numpy as np
 
 # Import helper functions
-from mlfromscratch.utils import train_test_split, to_categorical, normalize, accuracy_score
-from mlfromscratch.deep_learning.activation_functions import Sigmoid, ReLU, SoftPlus, LeakyReLU, TanH, ELU
-from mlfromscratch.deep_learning.loss_functions import CrossEntropy, SquareLoss
-from mlfromscratch.utils import Plot
-from mlfromscratch.utils.misc import bar_widgets
+from ml_fs.common_utils import train_test_split, to_categorical, normalize, accuracy_score
+from ml_fs.deep_learning.activation_functions import Sigmoid, ReLU, SoftPlus, LeakyReLU, TanH, ELU
+from ml_fs.deep_learning.loss_functions import CrossEntropy, SquareLoss
+from ml_fs.common_utils import Plot
+from ml_fs.common_utils.misc import bar_widgets
 import progressbar
 
 

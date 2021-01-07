@@ -3,9 +3,9 @@ import numpy as np
 import math
 from sklearn import datasets
 
-from mlfromscratch.utils import train_test_split, to_categorical, normalize, accuracy_score, Plot
-from mlfromscratch.deep_learning.activation_functions import Sigmoid, Softmax
-from mlfromscratch.deep_learning.loss_functions import CrossEntropy
+from ml_fs.common_utils import train_test_split, to_categorical, normalize, accuracy_score, Plot
+from ml_fs.deep_learning.activation_functions import Sigmoid, Softmax
+from ml_fs.deep_learning.loss_functions import CrossEntropy
 
 
 """This Pyhton file contains explanation Multilayer Perception
