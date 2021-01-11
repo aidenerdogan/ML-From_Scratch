@@ -2,8 +2,8 @@ from __future__ import print_function, division
 from terminaltables import AsciiTable
 import numpy as np
 import progressbar
-from ml_sf.common_utils import batch_iterator
-from ml_sf.common_utils.misc import bar_widgets
+from .common_utils import batch_iterator
+from .common_utils.misc import bar_widgets
 
 """This Pyhton file contains explanation of
 Neural Network (NN) by excersise"""

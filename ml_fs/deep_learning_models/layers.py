@@ -3,8 +3,8 @@ from __future__ import print_function, division
 import math
 import numpy as np
 import copy
-from mlfromscratch.deep_learning.activation_functions import Sigmoid, ReLU, SoftPlus, LeakyReLU
-from mlfromscratch.deep_learning.activation_functions import TanH, ELU, SELU, Softmax
+from ml_fs.deep_learning_models.activation_functions import Sigmoid, ReLU, SoftPlus, LeakyReLU
+from ml_fs.deep_learning_models.activation_functions import TanH, ELU, SELU, Softmax
 
 """This Pyhton file contains explanation of
 DL Layers by excersise"""

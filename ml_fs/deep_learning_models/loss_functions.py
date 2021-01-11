@@ -1,7 +1,7 @@
 from __future__ import division
 import numpy as np
 from ml_sf.common_utils import accuracy_score
-from ml_sf.deep_learning.activation_functions import Sigmoid
+from ml_sf.deep_learning_models.activation_functions import Sigmoid
 
 
 """This Pyhton file contains explanation of
